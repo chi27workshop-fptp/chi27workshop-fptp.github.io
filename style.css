@@ -308,6 +308,14 @@ table.dates td {
     font-size: 40px;
     font-weight: 700;
     color: var(--terracotta);
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
 }
 
 .organizers b {
